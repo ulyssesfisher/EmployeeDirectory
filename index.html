@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+  <title>Employee Directory</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <ul class="nav">
+        <li id="view">View</li>
+        <li id="add">Add</li>
+        <li id="verify">Verify</li>
+      </ul>
+    </nav>
+    <div>
+      <form>
+        <div class="wrap">
+          <input id="name" placeholder="employee name">
+          <div class="extra-inputs">
+            <input id="office" placeholder="office number">
+            <input id="phone" placeholder="phone number">
+          </div>
+          <button id="submit">Submit</button>
+        </div>
+      </form>
+      <div id="list"></div>
+    </div>
+  </div>
+
+
+
+  
+
+  <script src="dom.js"></script>
+  <script src="employeeList.js"></script>
+  <script src="app.js"></script>
+
+</body>
+
+
+</html>
